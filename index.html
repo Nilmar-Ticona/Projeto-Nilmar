@@ -1,0 +1,202 @@
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Dashboard do Aluno • EstágioConnect</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="tabs">
+      <div class="container">
+        <button class="tab-link active" data-tab="propostas">Propostas de Gerentes</button>
+        <button class="tab-link" data-tab="certificados">Meus Certificados</button>
+         <button class="tab-link" data-tab="historico">Histórico</button>
+      </div>
+    </nav>
+
+    <main class="container">
+
+  <!-- 2. Propostas de Gerentes -->
+      <section id="propostas" class="tab-content active">
+        <h2>Propostas de Gerentes</h2>
+        <ul class="cards-list">
+
+          <!-- Proposta 1 -->
+          <li class="card proposta-card">
+  <div class="card-header-proposta">
+    <h3>Plataforma de Learning Analytics</h3>
+    <span class="status"><strong>Pendente</strong></span>
+  </div>
+
+  <p class="meta">Proposta de: Roberto Santos — InnovaTech</p>
+
+  <p class="descricao">Desenvolvimento de dashboard para análise de dados educacionais</p>
+  <ul class="info-list">
+    <li><i>⏱</i>Duração: 4 meses</li>
+    <li><i>👥</i>Equipe: 3 pessoas</li>
+  </ul>
+  <div class="certificado-box">
+    Certificado oferecido: Data Science & Analytics
+  </div>
+  <p class="label-tecnologias">Tecnologias:</p>
+  <ul class="tech-list">
+    <li>React</li>
+    <li>Python</li>
+    <li>Machine Learning</li>
+  </ul>
+  <div class="card-actions">
+    <button class="btn-accept">Aceitar Proposta</button>
+    <button class="btn-decline">Recusar</button>
+  </div>
+</li>
+
+          <!-- Proposta 2 -->
+          <li class="card proposta-card">
+  <div class="card-header-proposta">
+    <h3>Sistema de IoT para Smart Cities</h3>
+    <span class="status"><strong>Pendente</strong></span>
+  </div>
+
+  <p class="meta">Proposta de: Lucia Fernandes — DataCorp</p>
+
+  <p class="descricao">Desenvolvimento de sensores inteligentes para monitoramento urbano</p>
+  <ul class="info-list">
+    <li><i>⏱</i>Duração: 6 meses</li>
+    <li><i>👥</i>Equipe: 4 pessoas</li>
+  </ul>
+  <div class="certificado-box">
+    Certificado oferecido: IoT & Smart Systems
+  </div>
+  <p class="label-tecnologias">Tecnologias:</p>
+  <ul class="tech-list">
+    <li>IoT</li>
+    <li>Node.js</li>
+    <li>React</li>
+    <li>MongoDB</li>
+  </ul>
+  <div class="card-actions">
+    <button class="btn-accept">Aceitar Proposta</button>
+    <button class="btn-decline">Recusar</button>
+  </div>
+</li>
+        </ul>
+      </section>
+
+  <!-- 3. Meus Certificados -->
+<section id="certificados" class="tab-content">
+  <h2>Meus Certificados Conquistados</h2>
+        <p class="total">Total: <strong>3</strong></p>
+        <ul class="cards-list">
+
+          <li class="card certificado-card">
+            <div class="card-header-certificado">
+              <h3>Certificado Desenvolvimento Frontend</h3>
+              <span class="cert-entity">Emitido: 28/10/2025</span>
+            </div>
+            <p class="meta">Website Institucional — StartupXYZ</p>
+            <ul class="cert-details">
+              <li><i>🔧</i>Habilidades: React; TypeScript; UI/UX Design; Perfomance Optimization</li>
+              <li><i>💻</i>Tecnologias: React; TypeScript; Tailwind CSS</li>
+              <li><i>⏱</i>120h de projeto</li>
+              <li><i>👔</i>Gerente: Ricardo Silva</li>
+            </ul>
+            <div class="card-actions">
+              <button class="btn-download">Baixar Certificado</button>
+              <button class="btn-view">Visualizar</button>
+            </div>
+            <span class="cert-badge">Nota: A</span>
+          </li>
+
+          <li class="card certificado-card">
+            <div class="card-header-certificado">
+              <h3>Certificado Desenvolvimento Backend</h3>
+              <span class="cert-entity">Emitido: 21/06/2025</span>
+            </div>
+            <p class="meta">API de Gestão de Estoque — LogisTech</p>
+            <ul class="cert-details">
+              <li><i>🔧</i>Habilidades: Node.js; DataBase Design; API Security; Testing</li>
+              <li><i>💻</i>Tecnologias: Node.js; Express; PostgreSQL</li>
+              <li><i>⏱</i>80h de projeto</li>
+              <li><i>👔</i>Gerente: Mariana Costa</li>
+            </ul>
+            <div class="card-actions">
+              <button class="btn-download">Baixar Certificado</button>
+              <button class="btn-view">Visualizar</button>
+            </div>
+            <span class="cert-badge">Nota: A+</span>
+          </li>
+
+          <li class="card certificado-card">
+            <div class="card-header-certificado">
+              <h3>Certificado Mobile Development</h3>
+              <span class="cert-entity">Emitido: 15/03/2025</span>
+            </div>
+            <p class="meta">App de Fitness — HealthTech</p>
+            <ul class="cert-details">
+              <li><i>🔧</i>Habilidades: React Native; Firebase; Mobile UX; Device Integration</li>
+              <li><i>💻</i>Tecnologias: React Native; Firebase; Redux</li>
+              <li><i>⏱</i>100h de projeto</li>
+              <li><i>👔</i>Gerente: Bruno Oliveira</li>
+            </ul>
+            <div class="card-actions">
+              <button class="btn-download">Baixar Certificado</button>
+              <button class="btn-view">Visualizar</button>
+            </div>
+            <span class="cert-badge">Nota: A</span>
+          </li>
+
+        </ul>
+      </section>
+      <main class="container">
+
+  <!-- 2. Propostas de Gerentes -->
+  <section id="propostas" class="tab-content active">
+    <!-- conteúdo das propostas -->
+  </section>
+
+  <!-- 3. Meus Certificados -->
+  <section id="certificados" class="tab-content">
+    <!-- conteúdo dos certificados -->
+  </section>
+
+  <!-- 4. Histórico -->
+  <section id="historico" class="tab-content">
+    <h2>Histórico</h2>
+    <ul class="history-list"> 
+      <li class="history-item">
+        <i class="history-icon">✓</i>
+        <span>Proposta aceita — Sistema E-commerce • TechCorp • 14/11/2024</span>
+      </li>
+      <li class="history-item">
+        <i class="history-icon">✓</i>
+        <span>Certificado Frontend conquistado — Website Institucional • StartupXYZ • 28/10/2025</span>
+      </li>
+      <li class="history-item">
+        <i class="history-icon">✓</i>
+        <span>Certificado Backend conquistado — API de Gestão • Logistech • 21/06/2025</span>
+      </li>
+      <li class="history-item">
+        <i class="history-icon">✓</i>
+        <span>Certificado Mobile Development conquistado — App de Fitness  • HealthTech • 15/03/2025</span>
+      </li>
+    </ul>
+  </section>
+
+</main>
+
+    </main>
+    <script>
+    const tabs  = document.querySelectorAll('.tab-link');
+    const panes = document.querySelectorAll('.tab-content');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        panes.forEach(p => p.classList.remove('active'));
+        tab.classList.add('active');
+        document.getElementById(tab.dataset.tab).classList.add('active');
+      });
+    });
+  </script>
+
+  </body>
+  </html>
